@@ -4,6 +4,12 @@ const fs = require("fs"),
   httpStatus = require("http-status-codes"),
   contentTypes = require("./contentTypes");
 
+
+/*
+    EXPORTS
+
+    essentialy retriving files that are needed, like html files.
+*/
 module.exports = {
   getFile: (file, res) => {
     fs.readFile(`./${file}`, (error, data) => {
