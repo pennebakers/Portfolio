@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  padding-top: 0px;
+  font-family: 'Sriracha', cursive;
+  color: #625a56;
+
+
+}
+
+html{
+  min-height: 100%;
+
+  background-image: url(/paFishing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container-title .display-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+}
+
+.container-find .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container-contact .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
