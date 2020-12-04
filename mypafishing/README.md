@@ -7,15 +7,15 @@ Having the contestants upload multiple pictures of size and weight would be able
 # StoryBoard
 
 ## Not Currently Urgent But Needs To Get Done Eventually
--Incorporate Express.js
+-Incorporate Express.js<br />
 -Incorporate MongoDB
 
 ## Needs To Get Done
--Create A Login Button on the HomePage
--Add Routing For That Login Button
--Create A Login Page
--Add Routing For That Login Page
--Create a Signup Button on the HomePage
--Add Routing For That Signup Button (Will need to add things to mongodb to incorporate this)
--Create a Signup Page
+-Create A Login Button on the HomePage<br />
+-Add Routing For That Login Button<br />
+-Create A Login Page<br />
+-Add Routing For That Login Page<br />
+-Create a Signup Button on the HomePage<br />
+-Add Routing For That Signup Button (Will need to add things to mongodb to incorporate this)<br />
+-Create a Signup Page<br />
 
