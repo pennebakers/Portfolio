@@ -33,14 +33,14 @@ router.get("/", (req, res) => {
   utils.getFile("views/index.html", res);
 });
 
-router.get("/contact", (req, res) => {
+router.get("/login", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/contact.html", res);
+  utils.getFile("views/login.html", res);
 });
 
-router.get("/fishLocator", (req, res) => {
+router.get("/signup", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/fishLocator.html", res);
+  utils.getFile("views/signup.html", res);
 });
 
 
@@ -59,16 +59,6 @@ router.get("/bootstrap.css", (req, res) => {
 router.get("/homePage.css", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.css);
   utils.getFile("public/css/homePage.css", res);
-});
-
-router.get("/contact.css", (req, res) => {
-  res.writeHead(httpStatus.OK, contentTypes.css);
-  utils.getFile("public/css/contact.css", res);
-});
-
-router.get("/storeLocator.css", (req, res) => {
-  res.writeHead(httpStatus.OK, contentTypes.css);
-  utils.getFile("public/css/storeLocator.css", res);
 });
 
 
