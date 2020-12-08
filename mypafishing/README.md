@@ -18,6 +18,6 @@ Having the contestants upload multiple pictures of size and weight would be able
 -Incorporate MongoDB
 
 ## Needs To Get Done
--Create a Modal For The Login Page
--Create a Modal For The Signup Page
+-Create a Modal For The Login Page<br/>
+-Create a Modal For The Signup Page<br/>
 
