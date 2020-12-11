@@ -1,48 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 
-body {
-  margin: 0;
-  padding-top: 0px;
-  font-family: 'Yeon Sung', cursive;
-  color: #625a56;
-
-
+body, html {
+  height: 100%;
 }
+.bg {
+  /* The image used */
+  background-image: url(/fishing.jpg);
 
-html{
-  min-height: 100%;
+  /* Full height */
+  height: 100%;
 
-  background-image: url(/paFishing.jpg);
-  background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
-  opacity: 0.575;
+  background-size: cover;
 }
 
-.container-title .display-1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -333%);
-  -ms-transform: translate(-50%, -50%);
-  color: black;
-}
-
-
-.container-login .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -200%);
-  -ms-transform: translate(-50%, -50%);
-  border-radius: 16px;
-}
-
-.container-signup .btn {
+.enter-button{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   border-radius: 16px;
+}
+
+.socials {
+  position: absolute;
+  top:50%;
+	left:50%;
+	transform:translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
 }

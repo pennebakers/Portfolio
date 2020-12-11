@@ -45,9 +45,9 @@ router.get("/signup", (req, res) => {
 
 
 
-router.get("/paFishing.jpg", (req, res) => {
+router.get("/fishing.jpg", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
-  utils.getFile("public/images/paFishing.jpg", res);
+  utils.getFile("public/images/fishing.jpg", res);
 });
 
 
@@ -55,6 +55,42 @@ router.get("/bootstrap.css", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.css);
   utils.getFile("public/css/bootstrap.css", res);
 });
+
+router.get("/bootstrap.min.css", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.css);
+  utils.getFile("node_modules/mdbootstrap/css/bootstrap.min.css", res);
+});
+
+router.get("/mdb.min.css", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.css);
+  utils.getFile("node_modules/mdbootstrap/css/mdb.min.css", res);
+});
+
+router.get("/style.css", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.css);
+  utils.getFile("node_modules/mdbootstrap/css/style.css", res);
+});
+
+router.get("/jquery.min.js", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.js);
+  utils.getFile("node_modules/mdbootstrap/js/jquery.min.js", res);
+});
+
+router.get("/popper.min.js", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.js);
+  utils.getFile("node_modules/mdbootstrap/js/popper.min.js", res);
+});
+
+router.get("/bootstrap.min.js", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.js);
+  utils.getFile("node_modules/mdbootstrap/js/bootstrap.min.js", res);
+});
+
+router.get("/mdb.min.js", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.js);
+  utils.getFile("node_modules/mdbootstrap/js/mdb.min.js", res);
+});
+
 
 router.get("/homePage.css", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.css);
