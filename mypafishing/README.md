@@ -16,12 +16,15 @@ Having the contestants upload multiple pictures of size and weight would be able
 -Add Routing For That Login Button<br />
 -Create a Signup Button on the HomePage<br />
 -Add Routing For That Signup Button<br />
+-Incorporate Express.js<br />
+-Create a Modal For The Login Page<br/>
+-Create a Modal For The Signup Page<br/>
 
 ## Not Currently Urgent But Needs To Get Done Eventually
--Incorporate Express.js<br />
 -Incorporate MongoDB
 
 ## Needs To Get Done
--Create a Modal For The Login Page<br/>
--Create a Modal For The Signup Page<br/>
+-Finsih Completely Incorporating Express.js<br/>
+-Add an MVC (Model View Controller) setup to the project <br/>
+-Connecting Views templates to be able to be seen with Express.js<br/>
 
