@@ -1,19 +1,17 @@
+const homeController = require("./controllers/homeController");
+
+const helmet = require("helmet");
+
 const port = 3000,
   express = require("express"),
   app = express();
 
-app.get("/", (req,res) => {
-  res.send("Hello Universe");
-});
+  app.use(helmet());
 
-app.post("/contact", (req, res) => {
-  res.send("Contact information submitted successfully.");
-});
+app.get("/items/:vegetable", homeController.sendReqParam);
 
-app.get("/items/:vegetable", (req, res) => {
-  let veg = req.params.vegetable;
-  res.send(`This is the page for ${veg}`);
-});
+app.get("/", homeController.home);
+
 
 app.listen(port, () => {
     console.log(`The Express.js server has started and is listening on port number: ${port}`);
