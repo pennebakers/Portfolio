@@ -20,7 +20,7 @@ Having the contestants upload multiple pictures of size and weight would be able
 -Create a Modal For The Login Page<br/>
 -Create a Modal For The Signup Page<br/>
 
-###Security
+##Security
 -Installed Helmet For Security
 
 ## Not Currently Urgent But Needs To Get Done Eventually
