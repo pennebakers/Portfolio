@@ -4,13 +4,15 @@
   "description": "mypafishing but incorparating express",
   "main": "main.js",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
     "helmet": "^4.2.0",
     "http": "^0.0.1-security",
     "http-status-codes": "^2.1.4",
+    "mdbootstrap": "^4.19.2",
     "nodemon": "^2.0.6"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

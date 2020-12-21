@@ -6,5 +6,9 @@ exports.sendReqParam = (req, res) => {
 };
 
 exports.home = (req, res) => {
-  res.send('This is the home page');
-}
+  res.render("index");
+};
+
+exports.dashboard = (req,res) => {
+  res.send('This is the dashboard page');
+};
