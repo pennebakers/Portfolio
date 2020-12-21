@@ -1,4 +1,4 @@
-
+const path = require("path");
 
 const helmet = require("helmet");
 
@@ -18,7 +18,9 @@ app.use(
 );
 app.use(express.json());
 app.use(express.static("public"));
-app.use(express.static("node_modules/mdbootstrap"));
+//app.use(express.static("node_modules/mdbootstrap-pro/css"));
+app.use("/css", express.static(path.join(__dirname, "node_modules/mdbootstrap-pro/css")));
+app.use("/js", express.static(path.join(__dirname, "node_modules/mdbootstrap-pro/js")));
 
 
 app.use((req, res, next) => {
