@@ -10,5 +10,5 @@ exports.home = (req, res) => {
 };
 
 exports.dashboard = (req,res) => {
-  res.send('This is the dashboard page');
+  res.send("dashboard");
 };

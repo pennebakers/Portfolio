@@ -1,0 +1,21 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "personal portfolio website",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth Pennebaker",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "http": "^0.0.1-security",
+    "http-status-codes": "^2.1.4",
+    "mdbootstrap-pro": "git+https://oauth2:eiF9nRmCDG-YAqWzvU6W@git.mdbootstrap.com/mdb/jquery/jq-pro.git",
+    "nodemon": "^2.0.6"
+  }
+}

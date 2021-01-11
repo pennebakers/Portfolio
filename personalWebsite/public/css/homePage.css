@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+.bg {
+  /* The image used */
+  background-image: url(/images/fishing.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headshot{
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -10%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.projects{
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -35%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.error-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -35%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.contactForm{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.about-card{
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -35%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.careers{
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -3%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.portfolio-button{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 15%);
+  padding: 10px;
+  border-radius: 5px;
+}
