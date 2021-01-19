@@ -42,13 +42,18 @@ body, html {
   padding: 10px;
   border-radius: 5px;
 }
+
 .contactForm{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
+  overflow: hidden;
+  padding-left: -50%;
+  padding-right: -50%;
 }
+
 .about-card{
   height: 100vh;
   position: absolute;

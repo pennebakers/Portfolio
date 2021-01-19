@@ -5,3 +5,4 @@ exports.home = (req, res) => {
   res.setHeader('Cache-Control', 'public, max-age=6400');
   res.render("projects");
 };
+
