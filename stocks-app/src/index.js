@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import axios from 'axios';
-import './index.css';
 
-function App() {
+
+{/*function App() {
   const [stocks, setStocks] = useState([]);
 
   const fetchData = async () => {
@@ -27,7 +26,6 @@ function App() {
         </form>
       </div>
 
-      {/* Fetch data from API */}
       <div>
         <button className="fetch-button" onClick={fetchData}>
           Fetch Data
@@ -35,7 +33,7 @@ function App() {
         <br />
       </div>
 
-      {/* Display data from API */}
+
       <div className="stocks">
         <h3>Stock Symbol: {stocks.symbol}</h3>
         <h3>Company Name: {stocks.companyName}</h3>
@@ -49,5 +47,20 @@ function App() {
   );
 }
 
+
+*/}
+
+
+const App = () => {
+  return (
+    <SearchBar />
+  )
+}
+
+const SearchBar = () =>{
+  return(
+  <input type="text">Hello</input>
+  )
+}
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
